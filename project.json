@@ -1,0 +1,19 @@
+{
+    "id": "driver/tool/doc",
+    "type": "package",
+    "value": {
+        "description": "Tool that invokes the corto documentation framework",
+        "author": "Sander Mertens",
+        "license": "GPL-3.0",
+        "version": "1.0.0",
+        "language": "c",
+        "managed": false,
+        "use": [
+            "corto",
+            "parson",
+            "driver/gen/doc/doxygen",
+            "driver/ext/md",
+            "driver/gen/doc/html"
+        ]
+    }
+}
