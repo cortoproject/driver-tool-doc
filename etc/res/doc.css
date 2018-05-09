@@ -23,10 +23,10 @@ html, body {
 }
 
 body {
-  background-color: #2C4E59;
+  background-color: #2a2f36;
   color: #000;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 24px;
   margin: 0px;
 }
@@ -377,7 +377,7 @@ code {
   padding-left: 2px;
   padding-right: 2px;
   font-family: "Source Code Pro", courier;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 pre.language-note {
@@ -389,7 +389,7 @@ pre.language-note {
 }
 code.language-note {
   font-family: inherit;
-  font-size: 15px;
+  font-size: 16px;
   background-color: inherit;
   color: #2C4E59;
   white-space: normal !important;
@@ -402,11 +402,11 @@ pre.language-warning {
   border-left-width: 8px;
   border-left-style: solid;
   border-color: #F9A825;
-  font-size: 15px;
+  font-size: 16px;
 }
 code.language-warning {
   font-family: inherit;
-  font-size: 15px;
+  font-size: 16px;
   background-color: inherit;
   color: #2C4E59;
   white-space: normal !important;
@@ -420,4 +420,15 @@ pre.language-demo {
 code.language-demo {
   background-color: #2C4E59;
   color: #fff;
+}
+
+div.made-with-love {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #999;
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 10px;
+    background-color: #fafafa;
 }
