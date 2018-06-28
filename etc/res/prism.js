@@ -50,7 +50,7 @@ Prism.languages.corto = {
         greedy: !0
     },
     keyword: /\b(?:null)\b/,
-    builtin: /\b(?:bool|char|int8|int16|int32|int64|uint8|uint16|uint32|uint64|float32|float64|string|interface|struct|class|procedure|enum|bitmask|function|method|observable|metaprocedure|void|object|in|package|application)\b/,
+    builtin: /\b(?:bool|char|int8|int16|int32|int64|uint8|uint16|uint32|uint64|float32|float64|string|interface|struct|class|procedure|enum|bitmask|member|alias|function|method|observable|override|overridable|metaprocedure|void|object|in|inout|out|use|typesystem|as|package|application)\b/,
     "boolean": /\b(?:true|false)\b/,
     "function": /[a-z0-9_]+(?=\()/i,
     number: /\b-?(?:0x[\da-f]+|\d*\.?\d+(?:e[+-]?\d+)?)\b/i,
